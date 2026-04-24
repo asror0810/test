@@ -1,0 +1,294 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#container{
+      width:  100%;
+    margin: 0 30px;
+}
+#header{
+    width: 100%;
+    height: 50px;
+}
+#locition{
+    background-color: red;  
+    width: 100%;
+    color: #fff;
+}
+.p1{
+    position: relative;
+    left: 100px;
+    top: 19px;
+}
+.p2{
+    position: relative;
+    left:70%;
+    
+}
+#select{
+    overflow: hidden;
+    background-color: red;
+    color: #fff;
+    width: 50px;
+    position: relative;
+    left: 85%;
+    border: none;
+    top: -19px;
+}
+
+#ikkinchiqismi{
+    background-color: #fff;
+    border: 10px;
+    width: 100%;
+    height: 10%;
+    color: black;
+}
+h1{
+    position: relative;
+    left: 100px;
+    top: 19px;
+}
+span{
+    background-color: RED;
+    color: white;
+}
+.Kategoriya{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height: 38px;
+    border: none;
+    position: relative;
+    border-radius: 5px ;
+    left: 18%;
+    top: -18px;
+}
+input{
+    position: relative;
+    top: -53px;
+    left: 27%;
+    width: 300px;
+    height: 30px;
+}
+button{
+    color: #fff;
+    position: absolute;
+    top: 78px;
+    left: 48%;
+    border: none;
+    width: 60px;
+    height: 33px;
+    background-color: red;
+}
+nav{
+    position: relative;
+    top: -78px;
+    left: 70%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+}
+
+#pc{
+ background-color: #058b29;
+ width: 81%;
+ height: 250px;
+ border-radius: 10px;
+ position: relative;
+ top: 80px;
+ left: 7%;
+ color: #fff;
+ overflow: hidden;
+}
+.matnpc{
+ position: relative;
+ top: -150px;
+ left: 20%;
+}
+.ong{
+    background-color: azure;
+color: #000;
+    position: absolute;
+    left: 93%;
+    top: 100px;
+    border-radius: 200px;
+}
+.chap{
+    background-color: azure;
+    color: #000;
+    position: absolute;
+    left: 2%;
+    border-radius: 200px;
+    top: 100px;
+}
+img{
+   height: 100%;
+   width: 400px;
+   position: relative;
+   left: 70%;
+   background: none;
+   background-position: center;
+}
+#Noutcategory{
+    width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: 90px;
+    left: 23.49%;
+    background-color: blue;
+}
+.imgh1{
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    color: white;   
+}
+#phonkcategory{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+    left: 40.39%;
+    background-color: rgb(137, 17, 206);
+}
+#Telecategory{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -89px;
+    left: 57%;
+    background-color: rgb(206, 17, 17);
+    color: #fff;
+}
+#Eleccategory{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -179px;
+    left: 73%;
+    background-color: rgb(137, 206, 16);
+    color: #fff;
+}
+#Eleccategory2{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -270px;
+    left: 100px;
+    background-color: rgb(137, 206, 17);
+    color: #fff;
+}
+#Noutcategory2{
+    width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -250px;
+    left: 40.39%;
+    background-color: rgb(10, 10, 72);
+}
+.imgh1{
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    color: white;   
+}
+#phonkcategory2{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -340px;
+    left: 23.39%;
+    background-color: rgb(17, 146, 206);
+}
+#Telecategory2{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -430px;
+    left: 73.10%;
+    background-color: rgb(198, 5, 5);
+    color: #fff;
+}
+#Eleccategory3{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -520px;
+    left: 57.10%;
+    background-color: rgb(137, 206, 17);
+    color: #fff;
+}
+#Eleccategory4{
+     width: 15%;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: -610px;
+    left: 100px;
+    background-color: rgb(137, 206, 17);
+    color: #fff;
+}
+#noutbooks{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -550px;
+}
+.nth3{
+    position: absolute;
+    left: 100px;
+}
+#ntbtn{
+  position: absolute;
+  top: 0px;
+  left: 82%;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #fff;
+  color: #000;
+}
+#module{
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: #000;
+    width: 130px;
+    height: 160px;
+    position: absolute;
+    top: 40px;
+    left: 7%;
+}   
+.mdp{
+      background-color: red;
+      width: 50px;
+     height: 20px;
+     color: #fff;
+}
+.mdh4{
+  position: absolute;
+  top: 100px;
+  left: 25%;
+}
+#sum{
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    left: 24.40%;
+}
