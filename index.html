@@ -20,18 +20,22 @@
             </div>
             <div id="ikkinchiqismi">
                 <h1>data <span>shop</span></h1>
-                <button class="Kategoriya">Kategoriya</button>
+                <button class="Kategoriya" id="katbtn">Kategoriya</button>
                 <form action="">
-                    <input type="text">
-                    <button class="inp">search</button>
-                </form>
-                <nav>
+                    <input type="text" id="inp">
+                    <button class="inp" onclick="search()">search</button>
+                    <nav>
                     <a href="#">Korzinka</a>
                     <a href="#">izbiriniy</a>
                     <a href="#">Profil</a>
                 </nav>
+                </form>
             </div>
+        </div>
+        <div id="menyu">
+            <button id="closebtn" onclick="closebtn()">X</button>
         </div>
     </div>
 </body>
+   <script src="main.js"></script>
 </html>
